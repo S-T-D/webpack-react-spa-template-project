@@ -1,1 +1,9 @@
-document.write('这是一个很漂亮的页面。');
+import React from 'react';
+import ReactDOM from 'react-dom';
+import App from './app';
+
+ReactDOM.render(
+	<App />,
+	document.getElementById('root')
+);
+
