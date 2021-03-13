@@ -1,6 +1,6 @@
 const App = () => {
 	const title: string = 'A beautiful page!';
-	return ( 
+	return (
 		<h2>{title}</h2> 
 	)
 }
