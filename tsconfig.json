@@ -12,6 +12,7 @@
 		"module": "ESNext",
 		"strict": true,
 		"jsx": "react-jsx",
+		"noEmit": true,
 		"allowJs": true
 	},
 	"include": [
