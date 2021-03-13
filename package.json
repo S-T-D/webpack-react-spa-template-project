@@ -6,7 +6,7 @@
   "author": "july <1127563033@qq.com>",
   "license": "MIT",
   "scripts": {
-    "type-check": "tsc --noEmit",
+    "type-check": "tsc --noEmit --jsx react-jsx",
     "build": "webpack",
     "dev": "webpack serve",
     "prepare": "husky install"
