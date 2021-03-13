@@ -16,7 +16,7 @@
     }
   },
   "lint-staged": {
-    "src/**/*.{ts,tsx}": [
+    "*.{ts,tsx}": [
       "yarn type-check"
     ]
   },
