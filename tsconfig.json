@@ -1,25 +1,25 @@
 {
-	"compilerOptions": {
-		"allowSyntheticDefaultImports": true,
-		"noFallthroughCasesInSwitch": true,
-		"noUnusedParameters": true,
-		"noImplicitReturns": true,
-		"moduleResolution": "node",
-		"esModuleInterop": true,
-		"noUnusedLocals": true,
-		"noImplicitAny": true,
-		"target": "ESNext",
-		"module": "ESNext",
-		"strict": true,
-		"jsx": "react-jsx",
-		"noEmit": true,
-		"allowJs": true
-	},
-	"include": [
-		"src/**/*"
-	],
-	"exclude": [
-		"node_modules",
-		"dist"
-	]
+    "compilerOptions": {
+        "allowSyntheticDefaultImports": true,
+        "noFallthroughCasesInSwitch": true,
+        "noUnusedParameters": true,
+        "noImplicitReturns": true,
+        "moduleResolution": "node",
+        "esModuleInterop": true,
+        "noUnusedLocals": true,
+        "noImplicitAny": true,
+        "target": "ESNext",
+        "module": "ESNext",
+        "strict": true,
+        "jsx": "react-jsx",
+        "noEmit": true,
+        "allowJs": true
+    },
+    "include": [
+        "src/**/*"
+    ],
+    "exclude": [
+        "node_modules",
+        "dist"
+    ]
 }
