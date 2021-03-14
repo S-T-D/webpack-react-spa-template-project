@@ -6,7 +6,8 @@
   "author": "july <1127563033@qq.com>",
   "license": "MIT",
   "scripts": {
-    "type-check": "tsc -p .",
+    "type-check": "tsc --noEmit",
+    "type-check-pre-commit": "tsc",
     "build": "webpack",
     "dev": "webpack serve",
     "prepare": "husky install"
@@ -18,7 +19,7 @@
   },
   "lint-staged": {
     "*.{ts,tsx}": [
-      "yarn type-check"
+      "tsc --version"
     ]
   },
   "devDependencies": {
