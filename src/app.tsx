@@ -1,7 +1,6 @@
 const App = () => {
 	const title: string = 'A beautiful page!';
-	const desc = 'Beautiful';  				
-	
+	const  desc = 'Beautiful';  	
 	return ( 
 		<h2>{title}</h2>  
 	)
