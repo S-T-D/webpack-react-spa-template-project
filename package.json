@@ -14,12 +14,12 @@
   },
   "husky": {
     "hooks": {
-      "pre-commit": "lint-staged"
+      "pre-commit": "yarn type-check-pre-commit"
     }
   },
   "lint-staged": {
     "*.{ts,tsx}": [
-      "tsc --version"
+      "yarn type-check-pre-commit --version"
     ]
   },
   "devDependencies": {
