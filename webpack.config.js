@@ -34,7 +34,16 @@ module.exports = {
                     },
                     'sass-loader',
                 ]
-            }
+            },
+            {
+                test: /\.(png|jpg|gif|svg)$/i,
+                type: 'asset',
+                parser: {
+                    dataUrlCondition: {
+                        maxSize: 8 * 1024 // 8kb
+                    }
+                }
+            },
         ],
     },
 };
