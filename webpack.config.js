@@ -13,6 +13,7 @@ module.exports = {
     resolve: {
         extensions: ['.tsx', '.ts', '.js'],
     },
+    devtool: 'eval-source-map',
     module: {
         rules: [
             {
